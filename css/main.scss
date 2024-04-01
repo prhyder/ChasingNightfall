@@ -64,15 +64,14 @@ body {
 
 //==== Buttons =====
 .btn,.wpcf7-form-control.wpcf7-submit {
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: uppercase;
-	padding: 10px 22px;
-	letter-spacing: 0.3px;
-	font-size: 17px;
+	padding: 4px 18px;
+	letter-spacing: 0.8px;
+	font-size: 28px;
 	border-radius: $button-corner-radius;
 	color: white;
 	margin-right: 6px;
-	//font-family: "Aleo", serif;
 
 	&:active{
 		color: white;
@@ -88,6 +87,9 @@ body {
 	}
 }
 
+.btn-outline-primary{
+	border-width: 2px;
+}
 .btn-secondary {
 	color: $accentColor;
 }
@@ -106,7 +108,7 @@ body {
 }
 
 .btn-outline-primary {
-    @include button-outline-variant($accentColor, $accentColor, lighten($accentColor,5%), $accentColor);
+    @include button-outline-variant($accentColor, $accentColor, lighten($accentColor,5%), $accentColor, white);
 }
 
 .btn-secondary {
@@ -153,6 +155,12 @@ textarea {
 #subscribe {
 	border-top: 2px solid $accentColor;
 	border-bottom: 2px solid $accentColor;
+	background-color: transparent;
+
+	h2 {
+		text-transform: uppercase;
+		font-size: 2.1rem;
+	}
 
 	.submit {
 		white-space: no-wrap;
@@ -175,6 +183,25 @@ textarea {
 		form {
 			padding-left: 7rem;
 			padding-right: 7rem;
+		}
+	}
+
+	.container {
+		height: 287px;
+		border-top: 4px solid $primary;
+		border-bottom: 4px solid $primary;
+		object-fit: cover;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -140px;
+		background-color: white;
+		position: absolute;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+
+		@include media-breakpoint-down(lg){
+			height:auto;
 		}
 	}
 }
@@ -278,8 +305,7 @@ textarea {
 	
 	@include media-breakpoint-up(md){
 		h1 {
-			padding-left: 6rem;
-			padding-right: 6rem;
+
 		}
 		
 	}
@@ -289,11 +315,21 @@ textarea {
 	.btn {
 		margin-bottom: 24px;
 	}
+	.book-image {
+		width: 500px;
+		padding-left: 60px;
+		filter: drop-shadow(0 0 2.75rem #ffffff6a);
+	}
+	.topper {
+		padding-left: 3px;
+	}
 }
 
 #hero {
+	padding-bottom: 160px;
 	h1 {
-		font-size: 5rem;
+		font-size: 7.5rem;
+		
 	}
 }
 
@@ -379,6 +415,15 @@ textarea {
 //====== Book Details ======
 #book {
 
+	.more-padding {
+		padding-top: 190px;
+	}
+	@include media-breakpoint-down(lg){
+		.more-padding {
+			padding-top: 330px;
+		}
+	}
+
 	img {
 		margin: 0.5rem;
 	}
@@ -390,11 +435,6 @@ textarea {
 		.details {
 			padding-right: 5rem;
 		}
-	}
-
-	img {
-		max-height: 500px;
-		width: auto;
 	}
 
 	.title {
@@ -411,6 +451,35 @@ textarea {
 	.details {
 		padding: 3rem;
 		
+	}
+
+	.book-detail-section {
+		@include media-breakpoint-up(lg){
+			&.left{
+				margin-right: 10px;
+			}
+			&.right {
+				margin-left:10px;
+			}
+
+		}
+		
+		background-color: $secondaryLight;
+		height: auto;
+
+		img {
+			padding: 2px 30px 16px 30px;
+			max-height: 500px;
+		}
+
+		.description{
+			height: 100%;
+		}
+
+		.btn{
+			margin: auto;
+			margin-bottom: 30px;
+		}
 	}
 }
 

@@ -105,12 +105,11 @@
 <style>
 
 		#hero, #int-hero {
-				background-image: linear-gradient(to bottom, #000000a1, #000000a1),
-				url("<?php echo get_template_directory_uri(); ?>/images/Palace-Background.jpg");
+				background-image: 
+				url("<?php echo get_template_directory_uri(); ?>/images/Tunnel-City-Background.jpg");
 				background-size: cover;
 				object-fit: contain;
 				background-position: 50% 75%;
-
 		}
 		
 	</style>

@@ -36,13 +36,14 @@
 				</button>
 				<div class="navbar-collapse collapse" id="navbarResponsive" >
 					<ul class="navbar-nav text-uppercase  mx-auto py-4 py-lg-0">
-						<li class="nav-item"><a class="nav-link" href="/#book">The Book</a></li>
-						<li class="nav-item"><a class="nav-link" href="/#about">About the Author</a></li>
-						<li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="/books">Books</a></li>
+						<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
 					</ul>
-					<a href="/#subscribe" class="action-button mobile btn-primary btn text-center mx-auto">Get First Chapter</a>
+					<a href="/#subscribe" class="action-button mobile btn-outline-primary btn text-center mx-auto">Join the email list</a>
 				</div>
-				<a href="/#subscribe" class="action-button desktop btn-primary btn text-center mx-auto">Get First Chapter</a>
+				<a href="/#subscribe" class="action-button desktop btn-outline-primary btn text-center mx-auto">Join the email list</a>
 			</div>
 		</nav> 
 	</header>
