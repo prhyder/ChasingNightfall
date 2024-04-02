@@ -11,7 +11,7 @@
 
 ?>
 <footer id="footer" class="pt-5 mt-0 pb-0 mb-0 white">
-	<div class="container-fluid">
+	<div class="container-fluid" style="display:none;">
 		<div class="row">
 			<div class="col ">
 				<div class="skull-wrapper">
@@ -21,20 +21,24 @@
 		</div>
 	</div>
 	
-	<div class="container text-container">
-		<div class="row">
-			<div class="col">
-				<h4 class="text-center">CALL OF SHADOWS</h4>
-			<ul class="nav justify-content-center  pb-3 mb-3">
-				<li class="nav-item"><a href="#book" class="nav-link px-2 white">The Book</a></li>
-				<li class="nav-item"><a href="#about" class="nav-link px-2 white">About the Author</a></li>
-				<li class="nav-item"><a href="#contact" class="nav-link px-2 white">Contact</a></li>
-				<li class="nav-item"><a href="#subscribe" class="nav-link px-2 white">Subscribe</a></li>
-			</ul>
-			<div class=" text-center white border-bottom pb-5">
-				<p class="follow pb-1">Follow CJ Kingsley</p>
-
-				<div class="justify-content-center text-center">
+	<div class="container text-container pt-2">
+		<div class="row white border-bottom">
+			<div class="col-md-6">
+				<img alt="JR Steel Author Logo" src="<?php echo get_template_directory_uri(); ?>/images/Author-Logo.png">
+			</div>
+			<div class="col-md-3">
+				<h3 class="ps-3">LINKS</h3>
+				<ul class="nav d-flex flex-column pb-3 mb-3">
+					<li class="nav-item"><a href="/book" class="nav-link px-2 white">Books</a></li>
+					<li class="nav-item"><a href="/about" class="nav-link px-2 white">About the Author</a></li>
+					<li class="nav-item"><a href="/contact" class="nav-link px-2 white">Contact</a></li>
+					<li class="nav-item"><a href="/subscribe" class="nav-link px-2 white">Subscribe</a></li>
+					<li class="nav-item"><a href="/privacy-policy" class="nav-link px-2 white">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h3>FOLLOW JR STEEL</h3>
+				<div class=" pb-5">
 					<a href="" rel="noreferrer noopener">
 					
 					<button aria-label="Facebook" type="button" class="btn btn-primary p-2 btn-circle btn-circle-sm">
@@ -55,15 +59,6 @@
 						</button>
 					</a>
 					<a href="" rel="noreferrer noopener">
-						<button aria-label="Pinterest" type="button" class="btn btn-primary p-2 btn-circle btn-circle-sm">
-							<span class="ct-icon-container">
-								<svg width="20px" height="20px" viewBox="0 0 20 20" aria-hidden="true">
-									<path d="M10,0C4.5,0,0,4.5,0,10c0,4.1,2.5,7.6,6,9.2c0-0.7,0-1.5,0.2-2.3c0.2-0.8,1.3-5.4,1.3-5.4s-0.3-0.6-0.3-1.6c0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5c0,0.9-0.6,2.3-0.9,3.5c-0.3,1.1,0.5,1.9,1.6,1.9c1.9,0,3.2-2.4,3.2-5.3c0-2.2-1.5-3.8-4.2-3.8c-3,0-4.9,2.3-4.9,4.8c0,0.9,0.3,1.5,0.7,2C6,12,6.1,12.1,6,12.4c0,0.2-0.2,0.6-0.2,0.8c-0.1,0.3-0.3,0.3-0.5,0.3c-1.4-0.6-2-2.1-2-3.8c0-2.8,2.4-6.2,7.1-6.2c3.8,0,6.3,2.8,6.3,5.7c0,3.9-2.2,6.9-5.4,6.9c-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.2,0.8-0.6,1.5-1,2.1C8.1,19.9,9,20,10,20c5.5,0,10-4.5,10-10C20,4.5,15.5,0,10,0z"></path>
-								</svg>
-							</span>
-						</button>
-					</a>
-					<a href="" rel="noreferrer noopener">
 						<button aria-label="LinkedIn" type="button" class="btn btn-primary p-2 btn-circle btn-circle-sm">
 							<span class="ct-icon-container">
 								<svg width="20px" height="20px" viewBox="0 0 20 20" aria-hidden="true">
@@ -72,22 +67,13 @@
 							</span>
 						</button>
 					</a>
-					<a href="" rel="noreferrer noopener">
-						<button aria-label="Email" type="button" class="btn btn-primary p-2 btn-circle btn-circle-sm">
-							<span class="ct-icon-container">
-								<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
-									<path d="M10,10.1L0,4.7C0.1,3.2,1.4,2,3,2h14c1.6,0,2.9,1.2,3,2.8L10,10.1z M10,11.8c-0.1,0-0.2,0-0.4-0.1L0,6.4V15c0,1.7,1.3,3,3,3h4.9h4.3H17c1.7,0,3-1.3,3-3V6.4l-9.6,5.2C10.2,11.7,10.1,11.7,10,11.8z"></path>
-								</svg>
-							</span>
-						</button>
-					</a>
 				</div>
+
 			</div>
-			
-			<p class="text-center white pt-3">
-				<span class="footer-text-item">© 2024 CJ Kingsley</span>
-				<span class="footer-text-item">-</span>
-				<a href="/privacy-policy"><span class="footer-text-item">Privacy Policy</span></a>
+		</div>
+
+			<p class="white pt-3">
+				<span class="footer-text-item">© 2024 JR Steel</span>
 				<span class="footer-text-item">-</span>
 				<span class="footer-text-item">Website By Design Co.</span>
 			</p>

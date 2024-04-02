@@ -29,7 +29,7 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
 			<div class="container">
-				<a class="navbar-brand" aria-label="Scroll to Page Top" href="/"><img alt="CJ Kinsley Author Logo" src="<?php echo get_template_directory_uri(); ?>/images/Author-Logo.png"></a>
+				<a class="navbar-brand" aria-label="Scroll to Page Top" href="/"><img alt="JR Steel Author Logo" src="<?php echo get_template_directory_uri(); ?>/images/Author-Logo.png"></a>
 				
 				<button  class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span> 

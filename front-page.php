@@ -24,8 +24,8 @@ get_header();
 				<div class="col-md-7 gx-0 pt-5">
 					<p class="topper pt-5 my-1">AVAILABLE IN EBOOK, PAPERBACK, AND HARDBACK</p>
 					<h1 class="white">CHASING NIGHTFALL</h1>
-					<p class="white topper pt-5">BOOK 1 OF THE CHASING SHADOWS SERIES</p>
-					<h3 class="white description-text" >A race across the city to stop a killer before it's too late.</h3>
+					<p class="white topper pt-1">BOOK 1 OF THE CHASING SHADOWS SERIES</p>
+					<h3 class="white subtitle pt-5" >A race across the city to stop a killer before it's too late.</h3>
 
 					<div class="pt-5 btn-section">
 						<a href="" class="btn btn-outline-primary mb-2">
@@ -44,6 +44,7 @@ get_header();
 				<div class="col-md-5 gx-1">
 					<img class="img-fluid d-block pb-4 book-image" alt="Chasing Nightfall Book Cover" data-aos="fade-up" data-aos-once="true" loading="eager" src="<?php echo get_template_directory_uri(); ?>/images/Chasing-Nighfall-Book-Cover-3D.png">
 				</div>
+				<a id="subscribe" class="unset"></a>
 			</div>
 		</div>
 	</section>
@@ -87,13 +88,47 @@ get_header();
 		</div>
 	</section>
 
+	<!-- Review -->
+	<section id="reviews" class="bg-dark white">
+		<div class="container d-flex text-center pt-5 pb-5">
+			<div class="row pt-2 pb-2">
+				<div class="col reviews-col d-flex flex-column mx-auto">
+					<h2>“This book takes off and never STOPS.</h2>
+					<p class="pt-2"><i>Chasing Nightfall</i> kept me on the edge of my seat. Fascinating protagonist and a plot that really makes you root for him. I couldn't stop thinking about this book for days afterward.”</p>
+					<p class="reviewer-name pt-2">Review of <i>CHASING NIGHTFALL,</i> M. Smith of <i>The New York Times</i></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<!-- About The Author -->
-	<section id="about" class="bg-darkColor white pt-5 pb-5">
+	<section id="about" class="bg-white dark pt-5">
+		<div class="container pt-5">
+			<div class="row">
+				<div class="col-md-4">
+					<h2 class="pe-5">ABOUT</h2>
+				</div>
+				<div class="col-md-8 pt-1 pe-5">
+					<p>CJ is a storyteller with a love for weaving fantastical worlds and compelling characters. She embarked on her writing journey at a young age, crafting tales of adventure and magic.</p>
+
+					<p>She brings a unique perspective to the fantasy genre, blending elements of mystery, romance, and suspense to create stories that resonate with readers of all ages. When she's not lost in the pages of her latest manuscript, CJ can be found exploring the great outdoors, searching for inspiration in the beauty of the world around her.</p>
+					<a href="/about" class="btn btn-primary mt-3">READ MORE</a>
+				</div>
+			</div>
+		</div>
+		
+		<img class="tire-tracks" loading="lazy" alt="Chasing Tomorrow Book Cover" src="<?php echo get_template_directory_uri(); ?>/images/Tire-Tracks.jpg">
+	</section>
+
+	
+
+	<!-- About The Author -->
+	<section  class="bg-darkColor white pt-5 pb-5" style="display:none;">
 		<div class="container pt-5 pb-5">
 			<div class="row pt-5 pb-5">
 				<div class="col-md-12 col-lg-4 gx-5">
 					<div class="img-div">
-						<img alt="Author Photo" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/images/Author-Photo.jpg">
+						<img class="author-photo" alt="Author Photo" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/images/Author-Photo.jpg">
 					</div>
 					
 				</div>
@@ -102,13 +137,14 @@ get_header();
 					<h2 class="subtitle name">Meet CJ Kingsley</h2>
 					<p class="author-description">CJ is a storyteller with a love for weaving fantastical worlds and compelling characters. She embarked on her writing journey at a young age, crafting tales of adventure and magic.</p>
 					<p>She brings a unique perspective to the fantasy genre, blending elements of mystery, romance, and suspense to create stories that resonate with readers of all ages. When she's not lost in the pages of her latest manuscript, CJ can be found exploring the great outdoors, searching for inspiration in the beauty of the world around her.</p>
+					
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Contact with CF7 -->
-	<section id="contact" class="bg-dark white" >
+	<section id="contact" class="bg-dark white" style="display:none;">
 		<div class="container align-items-center">
 			<div class="row align-items-center">
 				<div class="image-col col-lg-5 col-md-12">

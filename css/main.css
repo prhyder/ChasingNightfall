@@ -9404,6 +9404,11 @@ h3, .h3 {
   font-size: 2.1rem;
 }
 
+h3.subtitle, .subtitle.h3 {
+  font-family: "Arial", sans-serif;
+  font-size: 1.5rem;
+}
+
 h4.subtitle, .subtitle.h4 {
   font-family: "Arial", sans-serif;
   letter-spacing: 0.6px;
@@ -9489,7 +9494,7 @@ header ul {
   font-family: "Arial", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 17px;
   letter-spacing: 1px;
   color: white;
   transition: all 0.2s ease-in-out;
@@ -9556,6 +9561,11 @@ header ul {
 
 body {
   background-color: black;
+}
+
+.unset {
+  border-width: 0px !important;
+  height: 0 !important;
 }
 
 .btn, .wpcf7-form-control.wpcf7-submit {
@@ -9672,6 +9682,7 @@ textarea {
   border-top: 2px solid #e1b31e;
   border-bottom: 2px solid #e1b31e;
   background-color: transparent;
+  offset-anchor: 50%;
 }
 #subscribe h2, #subscribe .h2 {
   text-transform: uppercase;
@@ -9830,7 +9841,7 @@ textarea {
   margin-bottom: 24px;
 }
 .hero .book-image {
-  width: 500px;
+  width: 450px;
   padding-left: 60px;
   filter: drop-shadow(0 0 2.75rem rgba(255, 255, 255, 0.4156862745));
 }
@@ -9842,7 +9853,7 @@ textarea {
   padding-bottom: 160px;
 }
 #hero h1, #hero .h1 {
-  font-size: 7.5rem;
+  font-size: 6.5rem;
 }
 
 #int-hero {
@@ -9857,20 +9868,33 @@ textarea {
 #reviews .reviews-col {
   padding: 1rem 3.4rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #reviews .reviews-col {
     padding: 1rem 8rem;
   }
 }
+@media (min-width: 1200px) {
+  #reviews .reviews-col {
+    padding: 1rem 16rem;
+  }
+}
 #reviews h2, #reviews .h2 {
-  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 #reviews h3, #reviews .h3 {
-  font-weight: 600;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#reviews p {
+  font-size: 26px;
+  line-height: 42px;
 }
 #reviews .reviewer-name {
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 18px;
   margin-bottom: 0px;
+  opacity: 0.9;
 }
 #reviews .quotes {
   width: 80px;
@@ -9977,6 +10001,7 @@ textarea {
   width: 100%;
   height: 80vh;
   overflow: hidden;
+  z-index: 10;
 }
 #contact image-col.col-lg-5 {
   max-width: 100%;
@@ -10029,7 +10054,18 @@ textarea {
   border-color: var(--bs-btn-hover-border-color);
 }
 
-#about img {
+#about {
+  padding-bottom: 0px;
+}
+#about h2, #about .h2 {
+  font-size: 3.5rem;
+}
+@media (min-width: 992px) {
+  #about h2, #about .h2 {
+    text-align: right;
+  }
+}
+#about .author-photo {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
@@ -10043,6 +10079,17 @@ textarea {
   #about .about, #about .name, #about img, #about .img-div, #about .author-description {
     text-align: left;
   }
+}
+
+.tire-tracks {
+  width: 621px;
+  max-width: 621px;
+  height: auto;
+  position: relative;
+  margin-left: -50px;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
 }
 
 footer {
@@ -10064,6 +10111,8 @@ footer .follow {
   font-size: 1rem;
 }
 footer .nav-link {
+  padding-top: 1px;
+  padding-bottom: 1px;
   font-size: 1rem;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6666666667), 0px 0px 10px rgba(0, 0, 0, 0.8156862745);
 }
@@ -10084,7 +10133,7 @@ footer .btn-circle {
   border-radius: 50%;
 }
 footer .btn-circle svg {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   margin-left: 1px;
 }
 footer .btn-circle-sm {
