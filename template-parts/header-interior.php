@@ -11,7 +11,7 @@
 
 <!-- Hero -->
 <section id="int-hero" class="hero" >
-		<div class="container text-center pt-5">
+		<div class="container pt-5">
 			<div class="row pt-3">
 				<div class="col-12">
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>

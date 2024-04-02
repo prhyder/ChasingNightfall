@@ -15,12 +15,12 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main interior-page-content">
 		<?php
 			get_template_part('template-parts/header', 'interior');
 		?>
 
-		<div class="container">
+		<div class="container ">
 			<div class="row">
 			<?php
 

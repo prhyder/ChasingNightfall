@@ -12,7 +12,7 @@
 
 	<?php _s_post_thumbnail(); ?>
 
-	<div class="entry-content container pt-5">
+	<div class="entry-content container interior-page dark pt-5">
 		<?php
 		the_content();
 
@@ -26,7 +26,7 @@
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
-		<footer class="entry-footer">
+		<footer class="entry-footer interior-page dark">
 			<?php
 			edit_post_link(
 				sprintf(
