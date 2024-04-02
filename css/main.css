@@ -9407,6 +9407,7 @@ h3, .h3 {
 h3.subtitle, .subtitle.h3 {
   font-family: "Arial", sans-serif;
   font-size: 1.5rem;
+  line-height: 1.9rem;
 }
 
 h4.subtitle, .subtitle.h4 {
@@ -9559,6 +9560,25 @@ header ul {
   flex-direction: column;
 }
 
+.book-detail {
+  background-color: #dfdfdf;
+}
+
+.book-details-page h2, .book-details-page .h2 {
+  text-transform: uppercase;
+}
+
+.img-column img { /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
 body {
   background-color: black;
 }
@@ -9594,7 +9614,7 @@ body {
 }
 
 .btn-secondary {
-  color: #e1b31e;
+  color: black;
 }
 
 .btn-primary, .wpcf7-form-control.wpcf7-submit {
@@ -9656,6 +9676,7 @@ input[type=text], input[type=email] {
   height: 46px;
   border-radius: 0px;
   border-color: rgb(65, 65, 65);
+  font-family: "Arial", sans-serif;
 }
 input[type=text]:focus, input[type=email]:focus {
   border-color: aqua;
@@ -9664,6 +9685,7 @@ input[type=text]:focus, input[type=email]:focus {
 textarea {
   border-radius: 0px !important;
   border-color: rgb(65, 65, 65);
+  font-family: "Arial", sans-serif;
 }
 
 .input:focus {
@@ -9859,12 +9881,14 @@ textarea {
 }
 
 #int-hero {
-  min-height: 300px;
-  height: 300px;
+  min-height: 360px;
+  height: 360px;
+  border-bottom: 4px solid #e1b31e;
 }
 #int-hero h1, #int-hero .h1 {
   text-align: left;
   text-transform: uppercase;
+  font-size: 4rem;
 }
 
 #reviews {
@@ -10152,6 +10176,7 @@ footer .footer-text-item {
   font-size: 1rem;
   padding: 1rem 0.3rem;
   color: white;
+  text-transform: uppercase;
 }
 footer .first-column {
   padding-left: 200px;

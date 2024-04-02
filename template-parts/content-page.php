@@ -12,17 +12,23 @@
 
 	<?php _s_post_thumbnail(); ?>
 
-	<div class="entry-content container interior-page dark pt-5">
-		<?php
-		the_content();
+	<div class="entry-content container interior-page dark pt-5 px-5">
+		<div class="row">
+			<div class="col px-5">
+				<?php
+					the_content();
 
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', '_s' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
+				wp_link_pages(
+					array(
+						'before' => '<div class="page-links">' . esc_html__( 'Pages:', '_s' ),
+						'after'  => '</div>',
+					)
+				);
+				?>
+			</div>
+		</div>
+
+		
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>

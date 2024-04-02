@@ -9,13 +9,24 @@
 
 ?>
 
+<?php
+	$title = "";
+	if ( $args && $args['title'] ) {
+		$title = $args['title'];
+	}
+	else {
+		$title = get_the_title();
+	}
+?>
+
 <!-- Hero -->
 <section id="int-hero" class="hero" >
 		<div class="container pt-5">
-			<div class="row pt-3">
+			<div class="row pt-5 pb-2">
 				<div class="col-12">
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<h1 class="entry-title"><?php echo($title) ?></h1>
 				</div>
 			</div>
 		</div>
 	</section>
+	

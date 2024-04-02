@@ -1,0 +1,94 @@
+<?php
+/**
+ * Template part for displaying page content for the Books page
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package _s
+ */
+
+?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+<!-- Featured Image -->
+<?php //_s_post_thumbnail(); ?>
+
+
+<div class="entry-content container interior-page dark pt-5 ">
+	<div class="row">
+		<div class="col">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img class="img-fluid d-block pb-4 text-end" width="250" alt="Chasing Nightfall Book Cover" 
+						data-aos="fade-up" data-aos-once="true" loading="eager" src="<?php echo get_template_directory_uri(); ?>/images/Book-One-Chasing-Nightfall-Thumbnail.jpg">
+
+					</div>
+					<div class="col-md-8">
+						<p class="topper pt-5 my-1">BOOK ONE / CHASING SHADOWS SERIES</p>
+						<h2>CHASING NIGHTFALL</h2>
+						<p>The hunt for a dangerous criminal.</p>
+						<a href="/books/chasing-nightfall" class="btn btn-primary mb-5">Book Details</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-md-4">
+						<img class="img-fluid d-block pb-4 text-end" width="250" alt="Chasing Nightfall Book Cover" 
+						data-aos="fade-up" data-aos-once="true" loading="eager" src="<?php echo get_template_directory_uri(); ?>/images/Book-Two-Chasing-Tomorrow-Thumbnail.jpg">
+
+					</div>
+					<div class="col-md-8">
+						<p class="topper pt-5 my-1">BOOK TWO / CHASING SHADOWS SERIES</p>
+						<h2>CHASING TOMORROW</h2>
+						<p>A crime network must be taken out.</p>
+						<a href="/books/chasing-tomorrow" class="btn btn-primary mb-5">Book Details</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Uncomment below lines to use WP's Editor content -->
+	<?php
+				//the_content();
+
+			// wp_link_pages(
+			// 	array(
+			// 		'before' => '<div class="page-links">' . esc_html__( 'Pages:', '_s' ),
+			// 		'after'  => '</div>',
+			// 	)
+			// );
+			?>
+
+	
+</div><!-- .entry-content -->
+
+<?php if ( get_edit_post_link() ) : ?>
+	<footer class="entry-footer interior-page dark">
+		<?php
+		edit_post_link(
+			sprintf(
+				wp_kses(
+					/* translators: %s: Name of current post. Only visible to screen readers */
+					__( 'Edit <span class="screen-reader-text">%s</span>', '_s' ),
+					array(
+						'span' => array(
+							'class' => array(),
+						),
+					)
+				),
+				wp_kses_post( get_the_title() )
+			),
+			'<span class="edit-link">',
+			'</span>'
+		);
+		?>
+	</footer><!-- .entry-footer -->
+<?php endif; ?>
+</article><!-- #post-<?php the_ID(); ?> -->

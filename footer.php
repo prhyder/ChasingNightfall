@@ -24,15 +24,15 @@
 	<div class="container text-container pt-2">
 		<div class="row white border-bottom">
 			<div class="col-md-6">
-				<img alt="JR Steel Author Logo" src="<?php echo get_template_directory_uri(); ?>/images/Author-Logo.png">
+				<a href="/"><img alt="JR Steel Author Logo" src="<?php echo get_template_directory_uri(); ?>/images/Author-Logo.png"></a>
 			</div>
 			<div class="col-md-3">
 				<h3 class="ps-3">LINKS</h3>
 				<ul class="nav d-flex flex-column pb-3 mb-3">
+					<li class="nav-item"><a href="/" class="nav-link px-2 white">Home</a></li>
 					<li class="nav-item"><a href="/book" class="nav-link px-2 white">Books</a></li>
 					<li class="nav-item"><a href="/about" class="nav-link px-2 white">About the Author</a></li>
 					<li class="nav-item"><a href="/contact" class="nav-link px-2 white">Contact</a></li>
-					<li class="nav-item"><a href="/subscribe" class="nav-link px-2 white">Subscribe</a></li>
 					<li class="nav-item"><a href="/privacy-policy" class="nav-link px-2 white">Privacy Policy</a></li>
 				</ul>
 			</div>

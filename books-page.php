@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying the Author page.
+ * The template for displaying the Books page.
  * 
- * Template Name: Author Page
+ * Template Name: Books Page
  *
  * @package _s
  */
@@ -17,7 +17,7 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<?php
-				get_template_part( 'template-parts/content', 'aboutTheAuthor' );
+				get_template_part( 'template-parts/content', 'books' );
 			?>
 		</div>
 	</div>
