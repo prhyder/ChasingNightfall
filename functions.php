@@ -160,11 +160,8 @@ add_action('admin_menu', 'remove_posts_menu');
  */
 function enqueue_custom_fonts() {
 	if (!is_admin()){
-		wp_register_style('LeagueGothic', 'https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
-		wp_enqueue_style('LeagueGothic');
-
-		// wp_register_style('Aleo', 'https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
-		// wp_enqueue_style('Aleo');
+		// wp_register_style('LeagueGothic', 'https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+		// wp_enqueue_style('LeagueGothic');
 	}
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');

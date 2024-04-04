@@ -109,9 +109,9 @@ get_header();
 					<h2 class="pe-5">ABOUT</h2>
 				</div>
 				<div class="col-md-8 pt-1 pe-5">
-					<p class="author-description">JR Steel is a master of suspense, captivating readers with narratives that keep them on the edge of their seats. With an eye for detail and a talent for crafting intricate plots, Steel has become renowned for his thrilling storytelling.</p>
+					<p>J.R. Steel is a master of the hard-hitting thriller, captivating readers with narratives that keep them on the edge of their seats. With an eye for detail and a talent for crafting intricate plots, Steel has become renowned for his thrilling storytelling.</p>
 					<p>Steel burst onto the literary scene with his debut novel, <i>Chasing Nightfall,</i> a heart-pounding tale of intrigue, betrayal, and relentless pursuit. This electrifying thriller quickly garnered critical acclaim and established Steel as a star in the genre.</p>
-					<a href="/about" class="btn btn-primary mt-3">READ MORE</a>
+					<a href="/about" alt="Read More" class="btn btn-primary mt-3">READ MORE</a>
 				</div>
 			</div>
 		</div>

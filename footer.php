@@ -24,7 +24,7 @@
 	<div class="container text-container pt-2">
 		<div class="row white border-bottom">
 			<div class="col-md-6">
-				<a href="/"><img alt="JR Steel Author Logo" src="<?php echo get_template_directory_uri(); ?>/images/Author-Logo.png"></a>
+				<a href="/"><img alt="J.R. Steel Author Logo" class="pb-5 ps-2" src="<?php echo get_template_directory_uri(); ?>/images/Author-Logo.png"></a>
 			</div>
 			<div class="col-md-3">
 				<h3 class="ps-3">LINKS</h3>
@@ -37,8 +37,8 @@
 				</ul>
 			</div>
 			<div class="col-md-3">
-				<h3>FOLLOW JR STEEL</h3>
-				<div class=" pb-5">
+				<h3 class="ps-2">FOLLOW J.R. STEEL</h3>
+				<div class="ps-2 pb-5">
 					<a href="" rel="noreferrer noopener">
 					
 					<button aria-label="Facebook" type="button" class="btn btn-primary p-2 btn-circle btn-circle-sm">
@@ -73,9 +73,9 @@
 		</div>
 
 			<p class="white pt-3">
-				<span class="footer-text-item">© 2024 JR Steel</span>
+				<span class="footer-text-item">© 2024 J.R. Steel</span>
 				<span class="footer-text-item">-</span>
-				<span class="footer-text-item">Website By Design Co.</span>
+				<span class="footer-text-item">Website By <strong><a class="footer-text-item" target="blank" href="http://brightevolutionwebdesign.com/">Bright Evolution Web Design</a></strong></span>
 			</p>
 			</div>
 		</div>

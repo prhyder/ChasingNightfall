@@ -9602,6 +9602,9 @@ body {
   color: white;
   background-color: #e1b31e;
 }
+.btn:hover, .wpcf7-form-control.wpcf7-submit:hover {
+  color: white;
+}
 .btna:visited, .wpcf7-form-control.wpcf7-submita:visited {
   color: white;
 }
@@ -9673,7 +9676,7 @@ body {
 }
 
 input[type=text], input[type=email] {
-  height: 46px;
+  height: 53px;
   border-radius: 0px;
   border-color: rgb(65, 65, 65);
   font-family: "Arial", sans-serif;
@@ -10177,6 +10180,7 @@ footer .footer-text-item {
   padding: 1rem 0.3rem;
   color: white;
   text-transform: uppercase;
+  font-family: "Arial", sans-serif;
 }
 footer .first-column {
   padding-left: 200px;

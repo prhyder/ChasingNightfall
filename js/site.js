@@ -1,12 +1,13 @@
 window.onload = function() {
 
 	// ====== Add click event handlers to bootstrap nav ======
-	const navLinks = document.querySelectorAll('.nav-item');
-	const menuToggle = document.getElementById('navbarResponsive');
-	const bsCollapse = window.bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false});
-	navLinks.forEach((l) => {
-		l.addEventListener('click', () => { bsCollapse.toggle() });
-	});
+	// const navLinks = document.querySelectorAll('.nav-item');
+	// const menuToggle = document.getElementById('navbarResponsive');
+	// const bsCollapse = window.bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false});
+	// navLinks.forEach((l) => {
+	// 	l.addEventListener('click', () => { bsCollapse.toggle() });
+	// });
+
 
 	const reviewsCarouselElement = document.getElementById('reviewsCarousel');
 	// Autoplay carousel

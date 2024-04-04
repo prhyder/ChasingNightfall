@@ -84,6 +84,9 @@ body {
 		color: white;
 		background-color: $accentColor;
 	}
+	&:hover{
+		color: white;
+	}
 
 	&a:visited{
 		color:white;
@@ -104,8 +107,8 @@ body {
 .btn-primary, .wpcf7-form-control.wpcf7-submit {
     @include button-variant($accentColor,
 	 $accentColor, 
-	 darken($accentColor, 7.5%), 
-	 darken($accentColor, 7.5%), 
+	 darken($accentColor, 7.5%),
+	 darken($accentColor, 7.5%),
 	 darken($accentColor, 7.5%),
 	  white,
 	  $accentColor, 
@@ -132,7 +135,7 @@ body {
 //====== Forms ======
 input[type=text],input[type=email]{
 	//ackground-color: red !important;
-	height: 46px;
+	height: 53px;
 	border-radius: $button-corner-radius;
 	border-color: rgb(65, 65, 65);
 	font-family: 'Arial', sans-serif;
@@ -702,6 +705,7 @@ footer {
 		padding: 1rem .3rem;
 		color: white;
 		text-transform: uppercase;
+		font-family: 'Arial', sans-serif;
 	}
 
 	.first-column {
@@ -713,7 +717,6 @@ footer {
 		position: relative;
 		text-shadow: 0px 0px 10px #000000aa;
 	}
-
 
 	.footer-image {
 		position: absolute;

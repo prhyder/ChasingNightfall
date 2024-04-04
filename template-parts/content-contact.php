@@ -22,7 +22,7 @@
 	</div>
 
 	<!-- Contact with CF7 -->
-	<section id="contact" class="bg-transparent dark">
+	<section id="contact" class="bg-transparent dark pt-3">
 		<div class="container align-items-center">
 			<div class="row align-items-center">
 				<div class="image-col col-lg-5 col-md-12">
@@ -32,7 +32,7 @@
 				
 				<div class="col-lg-7 col-md-12 pt-5 pb-5 px-5 ">
 					<h2 class="subtitle pt-5">Contact</h2>
-					<p class="pt-1 pb-4">Please fill out the form below to contact JR Steel.</p>
+					<p class="pt-1 pb-4">Please fill out the form below to contact J.R. Steel.</p>
 						<?php echo do_shortcode('[contact-form-7 id="8a73305" title="Contact form 1"]'); ?>
 				</div>
 				
